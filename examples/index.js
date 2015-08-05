@@ -14,7 +14,10 @@ function onRequest( request, response ){
 
 function onListen(){
 	var test = lt();
-	test.start();
+	setTimeout( delay, 5000 );
+	function delay() {
+		test.start();
+	}
 }
 
 var server = http.createServer( onRequest );

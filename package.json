@@ -42,9 +42,7 @@
   "bugs": {
     "url": "https://github.com/kgryte/load-test/issues"
   },
-  "dependencies": {
-    "request": "^2.60.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "3.x.x",
     "codecov.io": "^0.1.5",
