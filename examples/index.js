@@ -9,7 +9,9 @@ function onRequest( request, response ){
 	response.writeHead( 200, {
 		'Content-Type': 'text/plain'
 	});
-	response.end( 'Ok' );
+	response.end( JSON.stringify({
+		'beep': 'boop'
+	}));
 }
 
 function onListen(){
